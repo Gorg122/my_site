@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double F = 0.0;
+            Console.WriteLine("| x  |  F | ");
+            for (double x = 0.1; x <= 1;x+=0.2)
+            {
+                F=x+5;
+                Console.WriteLine("|{0} | {1}| ", x, F);
+            }
+            Console.ReadLine();
+           
+        }
+    }
+}
